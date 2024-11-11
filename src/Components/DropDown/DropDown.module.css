@@ -36,18 +36,18 @@
     margin-top: 0.25rem;
 }
 
-.dropDownItem {
+.dropDownMenu>li {
     color: var(--gray-400);
     list-style: none;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.dropDownItem + .dropDownItem {
+.dropDownMenu>li + .dropDownMenu>li {
     border-top: 2px solid var(--gray-600);
     padding-top: 0.125rem;
 }
 
-.dropDownItem:hover {
+.dropDownMenu>li:hover {
     color: var(--gray-200);
 }
